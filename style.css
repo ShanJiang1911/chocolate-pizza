@@ -1,7 +1,183 @@
+main {
+    width: 960px;
+    margin: 30px auto;
+}
+
+/* this is header */
+
+header {
+    width: 960px;
+    display: flex;
+    
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+header div {
+    
+}
+
+#right {
+    
+    margin-left: 480px;
+    padding-left: 10px;
+}
+
+main h1 {
+   
+}
+
+/* section1 */
+
+#one h4 {
+    margin-top: 75px;
+}
+
+#one img {
+    margin-top: 75px;
+    height: 20px;
+    width: 20px;
+}
+
+section :nth-child(1){
+    
+    width: 100%;
+    
+}
+
+#one {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* section2 */
+section :nth-child(2) {
+    
+}
+
+#two {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+
+/* section3 */
+
+
+section :nth-child(3) {
+    
+
+    
+}
+
+#three {
+    width: 960px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#three p {
+    padding: 10px;
+    overflow-y: inherit;
+}
+
+/* section4 */
+section :nth-child(4) {
+    /* 
+    display:inline; */
+    width: 960px;
+    margin: 0 auto;
+    /* width: 960px;
+    display: flex;
+    flex-flow: row wrap; */
+}
+
+#four img {
+    width: 960px;
+    margin: 0 auto;
+    position: absolute;
+    z-index: -1;
+}
+
+#listone {
+    /* flex-flow: row wrap;
+    justify-content: space-evenly;
+    display: inline; */
+}
 
 
 
+/* section5 */
+section :nth-child(5) {
+    margin-top: 60px;
+}
 
+#five {
+    display:flex;
+    justify-content: space-evenly;
+    
+}
+
+#five p {
+    display: flex;
+    justify-content: left;
+
+}
+
+#five h2 {
+    display: flex;
+    justify-content: left;
+
+}
+
+button {
+    margin-top: 100px;
+    padding: 10px 10px 10px 10px;
+    background: rgb(187, 127, 16);
+    color: white;
+    margin-right: 40px;
+
+
+}
+
+#vanessa {
+    font-size: 1.4em;
+
+}
+
+#five img {
+    width:10%;
+}
+
+hr {
+
+}
+
+
+/* footer */
+footer{
+    margin: 10px 10px 10px 10px;
+    width: 960px;
+    align-items: center;
+}
+
+footer img {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+
+
+footer li {
+    text-align: center;
+}
 
 h1 {  
     font-family: 'dancing script', cursive;  font-size: 3em;
@@ -9,13 +185,7 @@ h1 {
 
 
 hr {
-    display: block;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: inset;
-  border-width: 1px;
+
 }
 
 
